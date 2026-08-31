@@ -51,7 +51,7 @@ export default function App() {
     <p>Experience Comfort. Embrace Nature.</p>
   </div>
   <div className="item">
-    <FaMapMarkerAlt size={35} color="red" />
+    <FaMapMarkerAlt size={30} color="red" />
     <h4>Eastern Cape, Sterkpruit 9762</h4>
   </div>
   <div className="social">
@@ -61,22 +61,22 @@ export default function App() {
   </div>
   <div className="items">
     <div className="it">
-    <FaPhone size={35} style={{ color: '#1877F2'}}/>
+    <FaPhone size={30} style={{ color: '#1877F2'}}/>
     <p> 065 564 7616</p>
     </div>
     <div className="it">
-    <FaWhatsapp size={35} style={{ color: '#25D366' }} />
+    <FaWhatsapp size={30} style={{ color: '#25D366' }} />
     <p> 073 912 5423</p>
     </div>
   </div>
 
   <div className="social-item">
-    <FaFacebook size={35} style={{ color: '#1877F2' }} />
+    <FaFacebook size={30} style={{ color: '#1877F2' }} />
     <p> Sunsand Lodge Collection</p>
   </div>
 
   <div className="social-item">
-    <FaEnvelope size={35} style={{ color: '#2956b1' }} />
+    <FaEnvelope size={30} style={{ color: '#2956b1' }} />
     <p>sandsanglodge@gmail.com</p>
   </div>
 
