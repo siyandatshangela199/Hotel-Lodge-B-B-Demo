@@ -278,7 +278,7 @@
   }
 
   .a {
-    width: 95%;
+    width: 100%;
     height: auto;
     flex-direction: column;
   }
@@ -291,7 +291,7 @@
   .app-container > h1 {
     width: 90%;
     box-sizing: border-box;
-    font-size: 24px;
+    font-size: 16px;
     padding: 15px;
     margin: 10px auto;
   }
@@ -315,4 +315,21 @@
   .card-footer {
     flex-wrap: wrap;
   }
+  .items{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 10px;
+  margin-left: 2px;
+  
+}
+.it{
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-size: 16px;
+  border: 2px solid rgb(0, 162, 255);
+  border-radius: 6px;
+  padding: 10px;
+}
 }
