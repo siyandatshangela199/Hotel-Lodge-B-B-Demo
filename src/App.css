@@ -263,7 +263,7 @@
 }
 @media (max-width: 600px) {
   .room-card {
-    width: 80%;
+    width: 100%;
     height: auto;
     flex-direction: column;
   }
