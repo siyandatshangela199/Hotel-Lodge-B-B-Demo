@@ -1,0 +1,262 @@
+.room-grid {
+  display: flex;
+  flex-direction: column;
+  justify-content:center;
+  text-align: center;
+  gap: 1rem;
+  margin: 10px;
+}
+.app-container > h1 {
+  display: inline-block;
+  font-size: 35px;
+  padding: 20px;
+  border: 2px solid rgb(0, 162, 255);
+  border-radius: 8px;
+  background-color: #ffffff;
+  color: #333;
+  letter-spacing: 2px;
+  width:90%;
+  margin: 10px;
+}
+.social-links {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  margin: 10px;
+}
+
+.social-item {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  border: 2px solid rgb(0, 162, 255);
+  border-radius: 6px;
+  padding: 10px; margin-right: 2px;
+
+}
+.items{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 10px;
+  margin-left: 2px;
+  
+}
+.it{
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  border: 2px solid rgb(0, 162, 255);
+  border-radius: 6px;
+  padding: 10px;
+}
+.social-item p {
+  margin: 0;
+}
+.social {
+  text-align: center;
+  margin: 0;
+}
+.item {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  border: 1px solid darkgrey;
+  border-radius: 8px;
+  padding: 5px;
+  height:80px; margin-right: 2px;
+}
+.item p {
+  margin: 0;
+}
+.b p {
+  color: #475569;
+  font-size: 1rem;
+  margin: 8px 0;
+}
+
+.b p:first-child {
+  font-weight: 600;
+  color: #022c22;
+}
+.main-header {
+  display: flex;
+  flex-direction: column;
+  justify-content:center;
+  text-align: center;
+  gap: 1rem;
+  margin: 10px;
+}
+.room-card {
+  display: flex;
+  width: 80%;
+  height: 300px;
+  background-color: #ffffff;
+  border: 1px solid darkgrey;
+  border-radius: 8px;
+  overflow: hidden;
+  transition: transform 0.2s ease;
+}
+.a {
+  display: flex;
+  width: 100%;
+  height: 500px;
+  background-color: #ffffff;
+  border: 1px solid darkgrey;
+  border-radius: 12px;
+  overflow: hidden;
+  transition: transform 0.2s ease;
+}
+.b {
+  width: 50%;
+  padding: 1.5rem;
+  box-sizing: border-box;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+
+.room-card:hover {
+  transform: translateY(-5px);
+}
+
+.room-image {
+  width: 50%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.room-details {
+  width: 50%;
+  padding: 1.5rem;
+  box-sizing: border-box;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.room-details h3 {
+  color: #000;
+}
+
+.room-meta {
+  color: #64748b;
+  font-size: 0.9rem;
+  margin-bottom: 1rem;
+}
+
+.amenity-badges {
+  display: flex;
+  gap: 0.5rem;
+  margin-bottom: 1.5rem;
+}
+
+.badge {
+  background-color: #ffffff;
+  color: #000;
+  border: 1px solid lightgrey;
+  font-size: 0.8rem;
+  padding: 0.25rem 0.75rem;
+  border-radius: 4px;
+}
+
+.card-footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 1rem;
+}
+
+.card-footer .price-tag {
+  padding: 6px;
+  color: #000;
+  border: 1px solid lightgray;
+  border-radius: 4px;
+}
+
+.price-tag {
+  font-size: 1.3rem;
+  font-weight: bold;
+}
+
+.cta-button {
+  background-color: rgb(0, 162, 255);;
+  color: #f5f5f5;
+  border: 2px solid black;
+  padding: 8px;
+  border-radius: 4px;
+  font-weight: bold;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: opacity 0.2s;
+}
+
+.cta-button:hover {
+  opacity: 0.9;
+}
+
+.no-results {
+  text-align: center;
+  color: blue;
+}
+.room-search {
+  width: 80%;
+  margin: 20px auto;
+  position: relative;
+}
+
+.room-search input {
+  width: 60%;
+  box-sizing: border-box;
+  padding: 15px 15px 15px 45px;
+  border: 1px solid darkgrey;
+  border-radius: 20px;
+  background-color: #ffffff;
+  color: #333;
+  font-size: 1rem;
+  outline: none;
+}
+.room-search input:hover {
+  border: 2px solid rgb(0, 162, 255); 
+  border-color: rgb(0, 162, 255);
+}
+.room-search input::placeholder {
+  color: #64748b;
+}
+
+.room-search svg {
+  position: absolute;
+  left: 18px;
+  top: 50%;
+  transform: translateY(-50%);
+  color: #64748b;
+  pointer-events: none;
+}
+.search-box {
+  position: relative;
+  width: 60%;
+}
+
+.search-box svg {
+  position: absolute;
+  left: 15px;
+  top: 50%;
+  transform: translateY(-50%);
+  color: #64748b;
+  pointer-events: none;
+}
+
+.search-box input {
+  width: 100%;
+  box-sizing: border-box;
+  padding: 15px 15px 15px 45px;
+  border: 1px solid darkgrey;
+  border-radius: 20px;
+  background-color: #ffffff;
+  color: #333;
+  font-size: 1rem;
+  outline: none;
+}
