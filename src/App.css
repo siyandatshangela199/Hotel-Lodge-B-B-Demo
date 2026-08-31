@@ -1,11 +1,13 @@
+```css
 .room-grid {
   display: flex;
   flex-direction: column;
-  justify-content:center;
+  justify-content: center;
   text-align: center;
   gap: 1rem;
   margin: 10px;
 }
+
 .app-container > h1 {
   display: inline-block;
   font-size: 35px;
@@ -15,9 +17,10 @@
   background-color: #ffffff;
   color: #333;
   letter-spacing: 2px;
-  width:90%;
+  width: 90%;
   margin: 10px;
 }
+
 .social-links {
   display: flex;
   flex-direction: column;
@@ -31,18 +34,19 @@
   gap: 10px;
   border: 2px solid rgb(0, 162, 255);
   border-radius: 6px;
-  padding: 10px; margin-right: 2px;
-
+  padding: 10px;
+  margin-right: 2px;
 }
-.items{
+
+.items {
   display: flex;
   flex-direction: row;
   align-items: center;
   gap: 10px;
   margin-left: 2px;
-  
 }
-.it{
+
+.it {
   display: flex;
   align-items: center;
   gap: 10px;
@@ -50,13 +54,16 @@
   border-radius: 6px;
   padding: 10px;
 }
+
 .social-item p {
   margin: 0;
 }
+
 .social {
   text-align: center;
   margin: 0;
 }
+
 .item {
   display: flex;
   align-items: center;
@@ -64,11 +71,14 @@
   border: 1px solid darkgrey;
   border-radius: 8px;
   padding: 5px;
-  height:80px; margin-right: 2px;
+  height: 80px;
+  margin-right: 2px;
 }
+
 .item p {
   margin: 0;
 }
+
 .b p {
   color: #475569;
   font-size: 1rem;
@@ -79,14 +89,16 @@
   font-weight: 600;
   color: #022c22;
 }
+
 .main-header {
   display: flex;
   flex-direction: column;
-  justify-content:center;
+  justify-content: center;
   text-align: center;
   gap: 1rem;
   margin: 10px;
 }
+
 .room-card {
   display: flex;
   width: 80%;
@@ -97,6 +109,7 @@
   overflow: hidden;
   transition: transform 0.2s ease;
 }
+
 .a {
   display: flex;
   width: 100%;
@@ -112,12 +125,10 @@
   width: 50%;
   padding: 1.5rem;
   box-sizing: border-box;
-
   display: flex;
   flex-direction: column;
   justify-content: center;
 }
-
 
 .room-card:hover {
   transform: translateY(-5px);
@@ -133,7 +144,6 @@
   width: 50%;
   padding: 1.5rem;
   box-sizing: border-box;
-
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -184,7 +194,7 @@
 }
 
 .cta-button {
-  background-color: rgb(0, 162, 255);;
+  background-color: rgb(0, 162, 255);
   color: #f5f5f5;
   border: 2px solid black;
   padding: 8px;
@@ -203,6 +213,7 @@
   text-align: center;
   color: blue;
 }
+
 .room-search {
   width: 80%;
   margin: 20px auto;
@@ -220,10 +231,12 @@
   font-size: 10px;
   outline: none;
 }
+
 .room-search input:hover {
-  border: 2px solid rgb(0, 162, 255); 
+  border: 2px solid rgb(0, 162, 255);
   border-color: rgb(0, 162, 255);
 }
+
 .room-search input::placeholder {
   color: #64748b;
 }
@@ -236,6 +249,7 @@
   color: #64748b;
   pointer-events: none;
 }
+
 .search-box {
   position: relative;
   width: 60%;
@@ -261,6 +275,8 @@
   font-size: 1rem;
   outline: none;
 }
+
+/* Mobile */
 @media (max-width: 600px) {
   .room-card {
     width: 100%;
@@ -283,10 +299,12 @@
     height: auto;
     flex-direction: column;
   }
-.page{
-  width:100%;
-  height: 400px;
-}
+
+  .page {
+    width: 100%;
+    height: 400px;
+  }
+
   .b {
     width: 100%;
     padding: 1rem;
@@ -298,18 +316,28 @@
     font-size: 20px;
     padding: 15px;
     margin: 10px auto;
+    border: 1px solid lightgray;
+    border-color: lightgray;
   }
-
+.room-details h3{
+  font-size: 16px;
+}
+.room-details p{
+  font-size: 14px;
+}
   .room-search {
     width: 95%;
   }
 
+  /* Search box remains 60% on mobile */
   .search-box {
-    width: 100%;
+    width: 60%;
   }
 
-  .room-search input {
-    width: 60%;
+  .search-box input {
+    width: 100%;
+    font-size: 12px;
+    border-radius: 50px;
   }
 
   .amenity-badges {
@@ -319,23 +347,46 @@
   .card-footer {
     flex-wrap: wrap;
   }
-  .items{
-  width: 100%;
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  gap: 10px;
-  margin-left: 2px;
-  
+  .price-tag{
+    font-size: 16px;
+  }
+
+  .items {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 10px;
+    margin-left: 2px;
+  }
+
+  .it {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-size: 12px;
+    border: 2px solid rgb(0, 162, 255);
+    border-radius: 6px;
+    padding: 10px;
+  }
+.social-item svg,
+.it svg,
+.item svg {
+  width: 24px;
+  height: 24px;
 }
-.it{
-  width:100%;
-  display: flex;
-  align-items: center;
-  gap: 10px;
-  font-size: 12px;
-  border: 2px solid rgb(0, 162, 255);
-  border-radius: 6px;
-  padding: 10px;
+  /* Hide only the Reservations & Enquiries section on mobile */
+  .tem {
+    display: none !important;
+  }
+
+  .social-item {
+    font-size: 14px;
+  }
+  .cta-button {
+  font-size: 14px;
+  padding: 6px 10px;
 }
 }
+
