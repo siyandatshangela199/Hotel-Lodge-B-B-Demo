@@ -279,32 +279,59 @@
 }
 
 /* Mobile */
+
+/* Mobile */
+
 @media (max-width: 600px) {
+  .main-header {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  text-align: center;
+  gap: 1rem;
+  margin: 10px;
+  }
+  .room-grid {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+    margin: 10px;
+  }
+
   .room-card {
+    display: flex;
+    flex-direction: column;
     width: 100%;
     height: auto;
-    flex-direction: column;
   }
 
   .room-image {
+    display: block;
     width: 100%;
     height: 220px;
+    object-fit: cover;
   }
 
   .room-details {
+    display: flex;
+    flex-direction: column;
     width: 100%;
     padding: 1rem;
+    box-sizing: border-box;
   }
 
   .a {
     width: 100%;
     height: auto;
+    display: flex;
     flex-direction: column;
   }
 
   .page {
     width: 100%;
     height: 400px;
+    object-fit: cover;
   }
 
   .b {
@@ -321,19 +348,22 @@
     border: 1px solid lightgray;
     border-color: lightgray;
   }
-.room-details h3{
-  font-size: 16px;
-}
-.room-details p{
-  font-size: 14px;
-}
+
+  .room-details h3 {
+    font-size: 16px;
+  }
+
+  .room-details p {
+    font-size: 14px;
+  }
+
   .room-search {
     width: 95%;
   }
 
-  /* Search box remains 60% on mobile */
   .search-box {
     width: 60%;
+    margin: 0 auto;
   }
 
   .search-box input {
@@ -349,7 +379,8 @@
   .card-footer {
     flex-wrap: wrap;
   }
-  .price-tag{
+
+  .price-tag {
     font-size: 16px;
   }
 
@@ -372,12 +403,14 @@
     border-radius: 6px;
     padding: 10px;
   }
-.social-item svg,
-.it svg,
-.item svg {
-  width: 24px;
-  height: 24px;
-}
+
+  .social-item svg,
+  .it svg,
+  .item svg {
+    width: 24px;
+    height: 24px;
+  }
+
   /* Hide only the Reservations & Enquiries section on mobile */
   .tem {
     display: none !important;
@@ -386,9 +419,9 @@
   .social-item {
     font-size: 14px;
   }
-  .cta-button {
-  font-size: 14px;
-  padding: 6px 10px;
-}
-}
 
+  .cta-button {
+    font-size: 14px;
+    padding: 6px 10px;
+  }
+}
