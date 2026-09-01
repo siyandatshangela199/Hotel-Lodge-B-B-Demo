@@ -213,7 +213,7 @@
 
 .no-results {
   text-align: center;
-  color: blue;
+  color: red;
 }
 
 .room-search {
@@ -227,7 +227,7 @@
   box-sizing: border-box;
   padding: 15px 15px 15px 45px;
   border: 1px solid darkgrey;
-  border-radius: 20px;
+  border-radius: 40px;
   background-color: #ffffff;
   color: #333;
   font-size: 10px;
@@ -271,7 +271,7 @@
   box-sizing: border-box;
   padding: 15px 15px 15px 45px;
   border: 1px solid darkgrey;
-  border-radius: 20px;
+  border-radius: 40px;
   background-color: #ffffff;
   color: #333;
   font-size: 1rem;
