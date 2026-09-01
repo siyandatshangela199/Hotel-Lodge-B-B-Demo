@@ -15,10 +15,10 @@ import { FaSearch } from 'react-icons/fa';
 import { FaPhone } from 'react-icons/fa';
 // Mock database simulating real-world API data from a lodge
 const LODGE_DATA = [
-  { id: 1, name: "Affordable Safari Tent ", price: 1800, accommodates: 2, pool: true, wifi: true, image: r },
-  { id: 2, name: "Bushveld Family Chalet", price: 2000, accommodates: 4, pool: true, wifi: false, image: e },
-  { id: 3, name: "Luxury Suite - 2 Guests ", price: 1200, accommodates: 2, pool: false, wifi: true, image: g },
-  { id: 4, name:  "Affordable Twin Beds ", price: 1500, accommodates: 2, pool: false, wifi: true, image: t}
+  { id: 1, name: "Luxury Suite - 2 Guests ", price: 2000, accommodates: 2, pool: true, wifi: true, image: r },
+  { id: 2, name: "Bushveld Family Chalet", price: 1500, accommodates: 4, pool: true, wifi: false, image: e },
+  { id: 3, name:  "Affordable Safari Tent ", price: 1000, accommodates: 2, pool: false, wifi: true, image: g },
+  { id: 4, name:  "Affordable Twin Beds ", price: 1200, accommodates: 2, pool: false, wifi: true, image: t}
 ];
 
 export default function App() {
