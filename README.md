@@ -60,5 +60,5 @@ Portfolio demonstration. Developed to showcase practical software development sk
 
 ## Developer
 
-**Ande Sipho**  
+**Siyanda Tshangela**  
 Software Developer
