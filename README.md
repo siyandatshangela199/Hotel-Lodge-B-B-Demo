@@ -1,62 +1,64 @@
+# SUNSAND LODGE COLLECTION – Accommodation Website Demonstration
 
-## SUNSAND HARDWARE – Website Demonstration
+A React-based accommodation website demonstration developed to showcase my frontend development skills, data handling, and ability to build interactive web applications for the hospitality industry.
 
-A React-based hardware store website demonstration developed to showcase my frontend development skills, problem-solving approach, and ability to build practical web solutions for businesses.
+## Live Deployment
 
-**Live Demo:** https://hardware-demo-2j62.onrender.com
+The application is deployed on **Render** and publicly accessible through the link below.
+
+**Live Website:**https://hotel-lodge-b-b-demo.onrender.com**
 
 ## Project Overview
 
-SUNSAND HARDWARE is a website demonstration developed around the needs of a real local hardware business.
+SUNSAND LODGE COLLECTION is an accommodation website demonstration developed around the needs of a lodge looking to showcase its available accommodation options online.
 
-The project explores how a hardware store could establish an online presence, showcase its products, and make important business information accessible to potential customers.
+The application presents different room and accommodation options, including their prices, guest capacities, and available amenities.
 
-It serves as a practical demonstration of my ability to identify business needs and translate them into functional web interfaces.
+The project demonstrates how accommodation information can be organised and displayed through an interactive interface, allowing visitors to browse available options and search for specific rooms.
 
-**Note:** This is a portfolio demonstration, not a completed commercial implementation.
+This is a portfolio demonstration rather than a completed commercial booking platform. The accommodation listings, prices, contact information, and availability details are illustrative examples.
 
 ## Features
 
-- Product catalogue and product search.
-- Business information and operating hours.
-- Customer contact options.
-- Responsive user interface.
-- Interactive frontend components.
+- **Accommodation Listings:** Displays different room and accommodation options.
+- **Room Search:** Allows users to search for accommodation by name.
+- **Dynamic Filtering:** Updates displayed accommodation options based on the search input.
+- **Accommodation Details:** Displays room prices, guest capacity, and available amenities.
+- **Visual Presentation:** Uses accommodation images to showcase different room options.
+- **Contact Information:** Displays phone, WhatsApp, Facebook, and email contact details.
+- **Responsive Interface:** Designed to provide an accessible browsing experience across different screen sizes.
 
 ## Technologies Used
 
 - React
 - JavaScript
 - CSS
-- Vite
 - React Icons
 
-## Deployment
+## Technical Implementation
 
-The application is deployed on **Render** and publicly accessible through the live demo link above.
+- Used React's `useState` hook to manage search input.
+- Implemented client-side filtering using JavaScript's `filter()` method.
+- Used `map()` to dynamically render accommodation listings from structured data.
+- Applied conditional rendering to display search results or a no-results message.
+- Organised accommodation information using JavaScript objects and arrays.
 
 ## Skills Demonstrated
 
-- Frontend development with React.
-- Component-based application structure.
-- Interactive user interface development.
-- Responsive web design.
-- Translating business needs into application features.
-- Version control with Git and GitHub.
-- Application deployment using Render.
-
-## Running Locally
-
-```bash
-git clone YOUR_REPOSITORY_URL
-cd Hardware-Store-Demo
-npm install
-npm run dev
-```
+- Building interactive frontend applications with React.
+- Managing component state.
+- Working with structured application data.
+- Implementing client-side search and filtering.
+- Dynamically rendering UI components.
+- Building information-rich interfaces.
+- Integrating images and icon libraries.
+- Deploying web applications using Render.
 
 ## Project Status
 
-Portfolio demonstration. Developed to showcase practical software development skills and provide an example of my approach to building business-oriented web applications.
+Portfolio demonstration developed to showcase practical frontend development skills and my approach to building solutions around real-world business needs.
+
+The current implementation demonstrates accommodation browsing and search functionality. It does not include a backend booking system, live availability management, or payment processing.
 
 ## Developer
 
