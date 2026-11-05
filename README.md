@@ -1,16 +1,64 @@
-# React + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## SUNSAND HARDWARE – Website Demonstration
 
-Currently, two official plugins are available:
+A React-based hardware store website demonstration developed to showcase my frontend development skills, problem-solving approach, and ability to build practical web solutions for businesses.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+**Live Demo:** https://hardware-demo-2j62.onrender.com
 
-## React Compiler
+## Project Overview
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+SUNSAND HARDWARE is a website demonstration developed around the needs of a real local hardware business.
 
-## Expanding the ESLint configuration
+The project explores how a hardware store could establish an online presence, showcase its products, and make important business information accessible to potential customers.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+It serves as a practical demonstration of my ability to identify business needs and translate them into functional web interfaces.
+
+**Note:** This is a portfolio demonstration, not a completed commercial implementation.
+
+## Features
+
+- Product catalogue and product search.
+- Business information and operating hours.
+- Customer contact options.
+- Responsive user interface.
+- Interactive frontend components.
+
+## Technologies Used
+
+- React
+- JavaScript
+- CSS
+- Vite
+- React Icons
+
+## Deployment
+
+The application is deployed on **Render** and publicly accessible through the live demo link above.
+
+## Skills Demonstrated
+
+- Frontend development with React.
+- Component-based application structure.
+- Interactive user interface development.
+- Responsive web design.
+- Translating business needs into application features.
+- Version control with Git and GitHub.
+- Application deployment using Render.
+
+## Running Locally
+
+```bash
+git clone YOUR_REPOSITORY_URL
+cd Hardware-Store-Demo
+npm install
+npm run dev
+```
+
+## Project Status
+
+Portfolio demonstration. Developed to showcase practical software development skills and provide an example of my approach to building business-oriented web applications.
+
+## Developer
+
+**Ande Sipho**  
+Software Developer
