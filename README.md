@@ -6,7 +6,7 @@ A React-based accommodation website demonstration developed to showcase my front
 
 The application is deployed on **Render** and publicly accessible through the link below.
 
-**Live Website:**https://hotel-lodge-b-b-demo.onrender.com**
+**Live Website:**https://hotel-lodge-b-b-demo.onrender.com
 
 ## Project Overview
 
